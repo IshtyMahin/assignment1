@@ -1,4 +1,5 @@
 body{
+    font-family: 'Poppins', sans-serif;
     line-height:200%;
     font-size: 120%;
     background-color: rgb(230, 221, 230);
@@ -12,7 +13,7 @@ section1 h1{
     
 }
 
-.heading-border{
+#heading-border{
         border-left: 7px solid;
         border-image: linear-gradient(purple,tomato) ;
         border-image-slice: 1;
@@ -22,8 +23,6 @@ section1 h1{
 }
 .half-width{
     width: 50%;
-
-    /* padding: 5px; */
 }
 #para-width{
   width:70%;
@@ -86,7 +85,6 @@ section3 img{
 }
 section3 h1{
     font-size: 40px;
-    /* margin: 3px; */
 }
 section4{
     display: flex;
@@ -104,9 +102,58 @@ section4 img{
 footer{
     text-align: center;
     background-color: rgb(235, 188, 240);
-    /* padding: 10px; */
     padding-top: 15px;
     padding-bottom: 15px;
+}
+section5{
+    display: flex;
+    padding: 30px;
+}
+section5 h1{
+    font-size: 50px;
+    margin: 40px;
+}
+.form{
+    width: 500px;
+    background-color: rgb(208, 175, 238);
+    border-radius:10px;
+    padding:25px;
+}
+.form h2{
+    width: 480px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blueviolet ;
+    font-size: 28px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;}
+.form input{
+    width: 500px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid rgb(212, 44, 170);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(83, 4, 99);
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(purple,tomato);
+    border: none;
+    margin-top: 13px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.form a{
+    text-decoration: none;
+    font-size: 20px;
 }
 footer h2{
     font-family: cursive;
